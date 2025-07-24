@@ -135,6 +135,7 @@ copyButton.addEventListener("click", (e) => {
 function showCopySuccess() {
     copyButton.classList.remove("far,", "fa-copy");
     copyButton.classList.add("fas", "fa-check");
+    
     copyButton.style.color = "#48bb78";
 
     setTimeout(() => {
